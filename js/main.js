@@ -31,7 +31,7 @@ $(function () {
             opacity: null
         };
         ScrollReveal().reveal('.trackHeader', slideUp);
-        ScrollReveal().reveal('.trackBox', { delay: 800 });
+        ScrollReveal().reveal('.trackBox',slideLeft);
         ScrollReveal().reveal('.mainContent .contentHolder .row .row', { delay: 1500 });
         ScrollReveal().reveal('.contentBox', { origin: 'bottom',distance:'150%' });
         ScrollReveal().reveal('.imgHolder', { origin:'bottom',distance:'150%' });
